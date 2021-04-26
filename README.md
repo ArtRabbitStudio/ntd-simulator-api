@@ -14,7 +14,7 @@ $ pipenv shell # starts a per-project shell using that env
 Run in the shell during development:
 
 ```
-(ntd-model-sth) $ python flask_app.py # runs the model
+(ntd-simulator-api) $ python flask_app.py # runs the model
 ```
 
 Build & run in Docker container:
