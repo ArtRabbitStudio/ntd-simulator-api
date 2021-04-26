@@ -258,7 +258,7 @@ def run_sth( request_hash, params ):
             OutSimFilePath = None,
             InSimFilePath = InSimFilePath,
             useCloudStorage = True,
-			cloudModule = gcs,
+            cloudModule = gcs,
             logger = app.logger
         )
 
