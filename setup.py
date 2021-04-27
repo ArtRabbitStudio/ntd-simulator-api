@@ -16,7 +16,7 @@ setuptools.setup(
         'gunicorn', # for running under WSGI
         'pandas', # for CSV read/write
         'trachoma @ git+https://github.com/ArtRabbitStudio/ntd-model-trachoma.git@develop',
-        'sth_simulation @ git+https://github.com/ArtRabbitStudio/ntd-model-sth.git@updated-params-20210322a'
+        'sth_simulation @ git+https://github.com/ArtRabbitStudio/ntd-model-sth.git'
     ],
     include_package_data=True
 )
